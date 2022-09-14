@@ -596,7 +596,7 @@ contract dxToken is ERC20, Ownable {
  
   bool private tradingEnabled = false;
  
-  constructor() ERC20("db3 token", "db3") {
+  constructor() ERC20("DexTor token", "DXTR") {
     uint256 totalTokens = 50000000 * 10**uint256(decimals());
     _mint(msg.sender, totalTokens);
   }
